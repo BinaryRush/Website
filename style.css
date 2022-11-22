@@ -43,6 +43,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.devpic img{
+    height: 45vh;
+}
 .hello{
 font-size: 55px;
 
@@ -50,7 +53,6 @@ font-size: 55px;
 .name{
 font-size: 45px;
 font-weight: bold;
-
 }
 .about{
 font-size: 35px;
