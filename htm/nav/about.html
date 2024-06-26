@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <a class="logo" href="#">
+        <img src="../image/b.png" alt="Portfolio Logo">
+        <span class="sr-only">Portfolio</span>
+      </a>
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav class="nav-links">
+      <a class="nav-link" href="../index.html">Home</a>
+      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#">Projects</a>
+      <a class="nav-link" href="#">Contact</a>
+    </nav>
+  </header>
+  <div>
+   <p> I possess a keen interest and foundational expertise in ethical hacking, 
+    utilizing tools such as Kali Linux distribution to explore cybersecurity realms. 
+    This journey has equipped me with the skills to navigate through intricate digital 
+    landscapes, ensuring the safety and integrity of systems.<br><br>
+
+    Furthermore, my fascination extends to the realm of robotics, where I've acquired fundamental 
+    knowledge. Exploring robotics not only fuels my curiosity but also provides me with insights 
+    into the innovative potential of automation and artificial intelligence.<br><br>
+
+    In addition to my cybersecurity and robotics endeavors, I've delved into the realm of mobile
+    repairing at an advanced level. Through hands-on experience and continuous learning, 
+    I've honed my skills to diagnose and repair a wide array of mobile devices, staying abreast 
+    of the latest technological advancements in the field.<br><br>
+
+    Beyond these technical domains, I find immense joy in crafting and tinkering with electric 
+    and electronic components. Whether it's assembling circuits, designing prototypes, or 
+    experimenting with new ideas, I'm deeply passionate about the creative process behind crafting 
+    technical solutions.<br><br>
+
+    In essence, my love for technical work transcends boundaries, driving me to continuously explore, 
+    learn, and innovate in various domains of technology.
+  </p>
+  </div>
+  <main>
+    <!-- Sections content -->
+  </main>
+  <footer>
+    <p>&copy; 2024 Bishwodip Khadka. All rights reserved.</p>
+    <nav class="footer-links">
+      <a class="footer-link" href="#">Privacy</a>
+      <a class="footer-link" href="#">Terms of Service</a>
+    </nav>
+  </footer>
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('change', function() {
+      if (this.checked) {
+        navLinks.classList.add('open');
+      } else {
+        navLinks.classList.remove('open');
+      }
+    });
+  </script>
+</body>
+</html>
+
